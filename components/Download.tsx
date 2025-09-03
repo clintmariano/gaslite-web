@@ -76,15 +76,15 @@ export default function Download() {
             className="grid grid-cols-3 gap-8 max-w-2xl mx-auto mt-16"
           >
             <div>
-              <div className="text-3xl font-bold text-white">5,000+</div>
-              <div className="text-primary-100">Active Users</div>
+              <div className="text-3xl font-bold text-white">100+</div>
+              <div className="text-primary-100">Early Adopters</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">10,000+</div>
+              <div className="text-3xl font-bold text-white">500+</div>
               <div className="text-primary-100">Gas Stations</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-white">$2.5M+</div>
+              <div className="text-3xl font-bold text-white">₱50K+</div>
               <div className="text-primary-100">Saved on Gas</div>
             </div>
           </motion.div>

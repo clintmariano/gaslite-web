@@ -87,7 +87,7 @@ export default function Hero() {
               transition={{ duration: 3, repeat: Infinity }}
               className="absolute -top-10 -right-10 bg-white p-4 rounded-2xl shadow-xl"
             >
-              <div className="text-green-600 font-bold text-2xl">$3.49</div>
+              <div className="text-green-600 font-bold text-2xl">₱65.50</div>
               <div className="text-gray-600 text-sm">Lowest Price</div>
             </motion.div>
             
@@ -96,7 +96,7 @@ export default function Hero() {
               transition={{ duration: 3, repeat: Infinity, delay: 1 }}
               className="absolute -bottom-10 -left-10 bg-white p-4 rounded-2xl shadow-xl"
             >
-              <div className="text-primary-600 font-bold text-xl">2.3 mi</div>
+              <div className="text-primary-600 font-bold text-xl">3.7 km</div>
               <div className="text-gray-600 text-sm">Nearest Station</div>
             </motion.div>
           </motion.div>
