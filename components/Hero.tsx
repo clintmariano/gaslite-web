@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { FaApple, FaGooglePlay } from 'react-icons/fa'
 import { HiLocationMarker, HiTrendingDown, HiUsers } from 'react-icons/hi'
 
@@ -68,14 +69,13 @@ export default function Hero() {
             <div className="relative mx-auto w-72 h-[600px] bg-gray-900 rounded-[3rem] shadow-2xl">
               <div className="absolute inset-x-0 top-0 h-6 bg-gray-900 rounded-t-[3rem]"></div>
               <div className="absolute inset-2 bg-white rounded-[2.5rem] overflow-hidden">
-                {/* Phone Screen Content */}
-                <div className="bg-gradient-to-b from-primary-600 to-primary-700 h-full flex items-center justify-center">
-                  <div className="text-white text-center p-8">
-                    <div className="text-6xl mb-4">⛽</div>
-                    <h3 className="text-2xl font-bold mb-2">GasLite</h3>
-                    <p className="text-sm opacity-90">Your Gas Savings Companion</p>
-                  </div>
-                </div>
+                <Image 
+                  src="/gaslite-splash.png"
+                  alt="GasLite App"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
               {/* Notch */}
               <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-40 h-7 bg-gray-900 rounded-full"></div>
