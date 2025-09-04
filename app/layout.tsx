@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/icon-transparent.png', type: 'image/png' }
+      { url: '/icon-transparent.png?v=2', type: 'image/png' }
     ],
     apple: '/apple-touch-icon.png',
   },
