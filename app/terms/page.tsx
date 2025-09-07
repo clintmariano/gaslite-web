@@ -17,7 +17,7 @@ export default function TermsOfService() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 mb-4">
-                By downloading, installing, or using GasLite ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+                By downloading, installing, or using GasLite ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App. You must be at least 18 years old to use this service.
               </p>
             </section>
 
@@ -104,7 +104,7 @@ export default function TermsOfService() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Governing Law</h2>
               <p className="text-gray-700 mb-4">
-                These Terms shall be governed by and construed in accordance with the laws of the jurisdiction in which GasLite operates, without regard to conflict of law provisions.
+                These Terms shall be governed by and construed in accordance with the laws of the Republic of the Philippines, without regard to conflict of law provisions.
               </p>
             </section>
 

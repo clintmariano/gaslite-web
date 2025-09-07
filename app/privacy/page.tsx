@@ -87,9 +87,9 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Age Requirements</h2>
               <p className="text-gray-700 mb-4">
-                GasLite is not intended for children under 13. We do not knowingly collect personal information from children under 13.
+                GasLite is not intended for individuals under 18 years of age. We do not knowingly collect personal information from anyone under 18. Users must be at least 18 years old to use this service.
               </p>
             </section>
 
